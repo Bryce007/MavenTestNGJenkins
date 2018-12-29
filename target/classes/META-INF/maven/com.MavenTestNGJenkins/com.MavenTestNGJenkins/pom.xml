@@ -24,8 +24,7 @@
 					<version>2.19.1</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>src/test/resources/Basetestng.xml</suiteXmlFile>
-							<suiteXmlFile>src/test/resources/Maventestng.xml</suiteXmlFile>
+							<suiteXmlFile>src/test/resources/testing.xml</suiteXmlFile>
 
 						</suiteXmlFiles>
 					</configuration>
