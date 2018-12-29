@@ -2,6 +2,9 @@ package com.MavenTestNG;
 
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
+
+import static org.testng.Assert.assertEquals;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -21,5 +24,8 @@ public class BaseClass {
 
         driver.quit();
 	}
-//////////
+@Test
+public void failThis() {
+	Assert.assertEquals(12, 13);
+}
 }
